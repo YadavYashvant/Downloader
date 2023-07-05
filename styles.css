@@ -1,37 +1,19 @@
-#downloadbtn{
+#downloadbtn{ 
+    display: flex;
+    justify-content: center;
+}
+#dbtn{
     background-color: aqua;
-    size: 50px;
-    padding: 20px;
     border: none;
-    margin-left: 20px;
-    border-radius: 8px;
-    text-align: center;
-    margin-top: 35px;
-    text-decoration-style: solid;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    padding: 20px;
+    margin: 30px;
     font-size: 20px;
     font-weight: bold;
+    border-radius: 20px;
 }
-#downloadbtn:hover{
-    background-color: rgb(119, 162, 162);
+#dbtn:hover{
+    background-color: rgb(125, 184, 184);
+    box-shadow: blue;
     cursor: pointer;
-}
-#downloadtxt{
-    background-color: rgb(107, 163, 161);
-    size: 50px;
-    border: 2px;
-    width: 40%;
-    border-color: black;
-    padding: 20px;
-    border: none;
-    margin-left: 20px;
-    border-radius: 8px;
-    text-align: center;
-    margin-top: 35px;
-    text-decoration-style: solid;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-#downloadtxt:hover{
-    background-color: rgb(122, 158, 171);
 }
